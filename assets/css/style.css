@@ -1,0 +1,200 @@
+/* Import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital@1&display=swap');
+
+/* Asterisk wildcard - This is the same code used in the love running project I will use it to apply to my website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* General Project Styles */
+    font-family: 'saira', sans-serif;
+}
+
+/** Header **/
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 0 1rem;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 99;
+    text-decoration: none;
+}
+
+/** Main **/
+main {
+    /* Make main content take up any extra space to move and push down the footer to the bottom */
+    flex: 1 0 auto;
+    margin-top: 30px;
+}
+
+
+#logo {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+/** Footer **/ 
+
+footer {
+    background-color: black;
+}
+
+#footer-writing {
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#footer-links {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 180%;
+    color: white;
+    margin: 20px;
+}
+
+body {
+    color: black;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    /* font-family: unbounded, cursive; */
+    /* color: rgb(239, 244, 244);
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+    margin-top: 25px; */
+}
+
+
+.choice-area {
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.choice-area button {
+    height: 50px;
+    width: 80%;
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    }
+
+.pick-one {
+    display: block;
+    height: auto;
+    width: 320px;
+    text-align: center;
+}
+
+.you-chose {
+    display: flex;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.player {
+    height: 350px;
+    width: 350px;
+    padding: 2px;
+    margin: 0;
+}
+
+.computer {
+    height: 350px;
+    width: 350px;
+    padding: 2px;
+    margin: 0;
+}
+
+img {
+    display:flex;
+    width: 90%;
+    height: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+.you-chose h2 {
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+/* media queries*/
+
+@media screen and (max-width: 280px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .game-rules {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    div.game-rules {
+        display: grid;
+    }
+}

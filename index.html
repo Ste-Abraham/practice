@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags which are for search engines -->
+    <meta name="description"
+        content="DA Plating Jigs. Birmingham based manufacturing company. Metal finishers. Engineering. Bespoke Solutions" />
+    <meta name="keywords"
+        content="da plating jigs, jigs, metal finishers, manufacturing, birmingham, west midlands, bespoke solutions, racking, welding" />
+    <!--Title-->
+    <title>Play - Rock, Paper, Scissors</title>
+    <!-- Link style sheet to index -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font awesom code for my kit-->
+    <script src="https://kit.fontawesome.com/8463b9d6cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Play - Rock, Paper, Scissors</h1>
+        </a>
+    </header>
+    <!-- Main content -->
+    <!--game section starts here-->
+    <main class="container">
+        <div id="gameDiv">
+            <section class="choice-area" id="choiceArea">
+                <div class="pick-one">
+                    <div>
+                        <h2>Take a chance:</h2>
+                    </div>
+                    <div class="choices-buttons">
+                        <div class="choice-button" id="choiceButton">
+                            <button aria-label="Rock" id="rock" data-choice="rock" class="control">Rock</button>
+                            <button aria-label="Paper" id="paper" data-choice="paper" class="control">Paper</button>
+                            <button aria-label="Scissors" id="scissors" data-choice="scissors"
+                                class="control">Scissors</button>
+                        </div>
+                    </div>
+                    <div class="winner-area">
+                        <p><span id="result-output"></span></p>
+                    </div>
+                </div>
+            </section>
+            <div class="you-chose">
+                <h2>You Chose: <span id="result"></span></h2><br>
+                <h2>Computer Chose:<span id="computer-choice"></span></h2>
+            </div>
+            <div class="main-section">
+                <section class="pic-display">
+                    <div class="player" id="player">
+                        <div class="score-one" id="scoreOne"></div>
+                        <h2><span id="player-choice" class="user-score"></span><span>Player:</span><span
+                                id="userScore">0</span></h2>
+                        <img id="player-image" src="assets/images/rock-paper-scissors.png"
+                            alt="Rock Paper Scissors">
+                    </div>
+                </section>
+                <section>
+                    <div class="computer" id="computer">
+                        <div class="score-two" id="scoreTwo"></div>
+                        <h2><span id="computerSpan" class="computer-score"></span><span>Computer:</span><span
+                                id="compScore">0</span></h2>
+                        <img id="computer-image" src="assets/images/rock-paper-scissors.png"
+                            alt="Rock Paper Scissors">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!--footer section-->
+    <!-- Footer -->
+    <footer>
+        <ul id="footer-links">
+            <li>
+                <a href="https://uk.linkedin.com/" target="_blank"
+                    aria-label="Visit our linked in page - over in a new tab"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                    aria-label="Visit our Facebook page - over in a new tab"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/?lang=en/" target="_blank"
+                    aria-label="Visit our Twitter/X page - over in a new tab"><i
+                        class="fa-brands fa-square-x-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"
+                    aria-label="Visit our instagram page - over in a new tab"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+        </ul>
+        <p id="footer-writing">Thank you for visiting play-rock, paper, scissors. We hope to have many more games coming
+            soon.</p>
+    </footer>
+    <!-- <footer>
+        <div class="footer-style">
+            <div>
+                <h3>Rules</h3>
+            </div>
+            <div class="game-rules">
+                <span>*Scissors cuts Paper*</span><span>*Paper covers Rock*</span><span>*Rock crushes
+                    Scissors*</span><span>*Best out of 9 games wins!*</span>
+            </div>
+        </div>
+    </footer> -->
+
+
+    <!--scripts-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
